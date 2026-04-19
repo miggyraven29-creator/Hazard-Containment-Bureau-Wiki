@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>HCB - Hazard Containment Bureau</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="topbar">
+    <h1>HCB</h1>
+    <p>Hazard Containment Bureau</p>
+  </div>
+
+  <div class="nav">
+    <a href="index.html">Home</a>
+    <a href="divisions.html">Divisions</a>
+    <a href="ranks.html">Ranks</a>
+  </div>
+
+  <div class="container">
+
+    <h2>Overview</h2>
+    <p>
+      The Hazard Containment Bureau (HCB) is a structured organization focused on containment operations,
+      research systems, enforcement units, and strategic command divisions.
+    </p>
+
+    <h2>Quick Access</h2>
+    <ul>
+      <li>Operational Divisions</li>
+      <li>Rank Structure</li>
+      <li>Command Network</li>
+    </ul>
+
+  </div>
+
+</body>
+</html>
