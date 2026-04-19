@@ -36,3 +36,54 @@
 
 </body>
 </html>
+
+style.css
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0b0f14;
+  color: #e6e6e6;
+}
+
+/* TOP BAR */
+.topbar {
+  background: #111826;
+  padding: 25px;
+  text-align: center;
+  border-bottom: 2px solid #1f2a3a;
+}
+
+.topbar h1 {
+  margin: 0;
+  color: #4aa3ff;
+}
+
+/* NAV BAR */
+.nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  background: #0f1622;
+  padding: 10px;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  color: #4aa3ff;
+}
+
+/* MAIN CONTENT */
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+h2 {
+  border-left: 4px solid #4aa3ff;
+  padding-left: 10px;
+}
