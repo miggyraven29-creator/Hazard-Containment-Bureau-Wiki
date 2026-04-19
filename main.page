@@ -1,0 +1,100 @@
+index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HCB - Hazard Containment Bureau</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header class="topbar">
+    <h1>HCB</h1>
+    <p>Hazard Containment Bureau</p>
+  </header>
+
+  <nav class="nav">
+    <a href="index.html">Home</a>
+    <a href="divisions.html">Divisions</a>
+    <a href="ranks.html">Ranks</a>
+  </nav>
+
+  <main class="container">
+
+    <section class="card">
+      <h2>Overview</h2>
+      <p>
+        The Hazard Containment Bureau (HCB) is a structured organization focused on containment,
+        operations, research systems, and strategic command.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>Quick Access</h2>
+      <ul>
+        <li>Divisions</li>
+        <li>Rank System</li>
+        <li>Command Network</li>
+      </ul>
+    </section>
+
+  </main>
+
+</body>
+</html>
+
+style.css
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0b0f14;
+  color: #e6e6e6;
+}
+
+.topbar {
+  background: #111826;
+  text-align: center;
+  padding: 25px;
+  border-bottom: 2px solid #1f2a3a;
+}
+
+.topbar h1 {
+  margin: 0;
+  color: #4aa3ff;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  background: #0f1622;
+  padding: 10px;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  color: #4aa3ff;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+.card {
+  background: #111826;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-left: 4px solid #4aa3ff;
+}
+
+h2 {
+  margin-top: 0;
+}
